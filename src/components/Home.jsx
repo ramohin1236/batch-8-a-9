@@ -55,7 +55,7 @@ const Home = () => {
        {/* conference and semener */}
           <div className="mt-24">
               <p className="text-5xl font-bold text-center mb-16"> Conferences and Seminars</p>
-              <div>
+              <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-8">
    
                 {conference.map(con=><Semener
                 key={con.id}
