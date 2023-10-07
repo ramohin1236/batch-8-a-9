@@ -1,0 +1,39 @@
+[
+    {
+      "id": 1,
+      "title": "Annual Tech Summit",
+      "description": "Join us for our Annual Tech Summit where industry leaders will share insights into the latest trends in technology. This conference is a must-attend for tech enthusiasts and professionals.",
+      "photo_url": "https://i.ibb.co/s6WM68H/enginerr-3.jpg"
+    },
+    {
+      "id": 2,
+      "title": "Marketing Strategies Conference",
+      "description": "Discover the most effective marketing strategies and tactics at our Marketing Strategies Conference. Learn from marketing experts and network with fellow marketers.",
+      "photo_url": "https://i.ibb.co/FwB9hjW/enginerr-2.jpg"
+    },
+    {
+      "id": 3,
+      "title": "Leadership Development Seminar",
+      "description": "Enhance your leadership skills and knowledge at our Leadership Development Seminar. Gain insights from successful leaders and take your career to the next level.",
+      "photo_url": "https://i.ibb.co/S5516d4/enginerr-9.jpg"
+    },
+    {
+      "id": 4,
+      "title": "Finance and Investment Forum",
+      "description": "Stay ahead in the world of finance and investments. Join us at the Finance and Investment Forum to explore opportunities and strategies for financial success.",
+      "photo_url": "https://i.ibb.co/s6WM68H/enginerr-3.jpg"
+    },
+    {
+      "id": 5,
+      "title": "Health and Wellness Symposium",
+      "description": "Take a holistic approach to health and wellness at our Health and Wellness Symposium. Experts will share tips for a healthier and more balanced life.",
+      "photo_url": "https://i.ibb.co/44kDH3j/enginerr-1.jpg"
+    },
+    {
+      "id": 6,
+      "title": "Diversity and Inclusion Conference",
+      "description": "Promote diversity and inclusion in the workplace. Join us at the Diversity and Inclusion Conference to learn from thought leaders and drive positive change.",
+      "photo_url": "https://i.ibb.co/zFkCksX/enginerr-4.jpg"
+    }
+  ]
+  

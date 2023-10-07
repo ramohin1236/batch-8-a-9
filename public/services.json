@@ -1,0 +1,39 @@
+[
+    {
+      "id": 1,
+      "category_name": "Smart Gadget",
+      "description": "A cutting-edge smart gadget that makes your life easier and more connected.",
+      "photo_url": "https://i.ibb.co/vYMfNwN/gad-8.jpg"
+    },
+    {
+      "id": 2,
+      "category_name": "Fridge",
+      "description": "A high-tech refrigerator that keeps your food fresh and your drinks cold.",
+      "photo_url": "https://i.ibb.co/nk2xQT6/fridge1.jpg"
+    },
+    {
+      "id": 3,
+      "category_name": "Computer",
+      "description": "A powerful computer that can handle all your productivity and gaming needs.",
+      "photo_url": "https://i.ibb.co/ZLQ2DTz/laptop-2.jpg"
+    },
+    {
+      "id": 4,
+      "category_name": "Smart TV",
+      "description": "An intelligent television that provides stunning visuals and smart entertainment features.",
+      "photo_url": "https://i.ibb.co/ZmkWGYR/tv-3.jpg"
+    },
+    {
+      "id": 5,
+      "category_name": "Mobile",
+      "description": "A sleek and powerful mobile phone that keeps you connected on the go.",
+      "photo_url": "https://i.ibb.co/7p5qpCc/mobile1.jpg"
+    },
+    {
+      "id": 6,
+      "category_name": "Camera",
+      "description": "A magical item that fulfills your heart's deepest desires.",
+      "photo_url": "https://i.ibb.co/VLSf1v6/camera-3.jpg"
+    }
+  ]
+  
