@@ -13,7 +13,7 @@ const Semener = ({con}) => {
         <div data-aos="zoom-out-down" className="card card-compact bg-base-100 shadow-xl">
         <figure><img className='h-96' src={photo_url} alt="Shoes" /></figure>
         <div className="card-body">
-          <h2 className="card-title">{title}</h2>
+          <h2 className="card-title text-2xl">{title}</h2>
           <p>{description}</p>
           
         </div>

@@ -18,7 +18,7 @@ const ServiceCart = ({service}) => {
      className="card w-full bg-base-100 shadow-xl ">
   <figure><img className='h-64' src={photo_url} alt="Shoes" /></figure>
   <div className="card-body">
-    <h2 className="card-title">{category_name}</h2>
+    <h2 className="card-title text-2xl">{category_name}</h2>
     <p>{description}</p>
     <div className="card-actions justify-end">
       <button className="btn btn-primary w-full">See Details</button>

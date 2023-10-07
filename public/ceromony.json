@@ -1,0 +1,24 @@
+[
+    {
+      "id": 1,
+      "description": "Our Annual Employee Recognition Ceremony celebrates outstanding contributions and achievements. Join us for an evening of appreciation and inspiration.",
+      "photo_url": " https://i.ibb.co/RvM9w0N/ceremony-1.jpg"
+    },
+    {
+      "id": 2,
+      "description": "The Annual Awards Gala is a night of glamour and recognition. We honor excellence in various categories and enjoy a memorable evening together.",
+      "photo_url": "https://i.ibb.co/5BBTZPN/ceremony-2.jpg"
+    },
+    {
+      "id": 3,
+      "description": "It's time to celebrate a year of success and teamwork at our Annual Company Party. Join us for fun, music, and great memories.",
+      "photo_url": "https://i.ibb.co/NmKSJkn/ceremony-3.jpg"
+    },
+    {
+      "id": 4,
+      "description": "Our Annual Charity Event is a chance to give back to the community. Join us in supporting a noble cause and making a positive impact.",
+      "photo_url": "https://i.ibb.co/mTKD59j/ceremony-4.jpg"
+    }
+   
+  ]
+  

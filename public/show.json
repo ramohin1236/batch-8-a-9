@@ -1,0 +1,39 @@
+[
+    {
+      "id": 1,
+      "title": "Annual Technology Expo",
+      "description": "Explore the latest innovations in technology and connect with leading tech companies at our Annual Technology Expo. Don't miss this opportunity to witness cutting-edge products and solutions.",
+      "photo_url": "https://i.ibb.co/0hdNYGX/enginerr-5.jpg"
+    },
+    {
+      "id": 2,
+      "title": "Global Business Expo",
+      "description": "Expand your global business network at the Global Business Expo. Discover international partnerships, explore new markets, and gain insights from global business leaders.",
+      "photo_url": "https://i.ibb.co/1dZDSNW/expo-3.jpg"
+    },
+    {
+      "id": 3,
+      "title": "Healthcare Solutions Showcase",
+      "description": "Stay up-to-date with the latest advancements in healthcare technology and solutions. The Healthcare Solutions Showcase is your gateway to the future of healthcare.",
+      "photo_url": "https://i.ibb.co/nMdPpVj/expo-4.jpg"
+    },
+    {
+      "id": 4,
+      "title": "Green Energy Expo",
+      "description": "Join the movement towards a sustainable future at the Green Energy Expo. Explore renewable energy technologies, eco-friendly products, and eco-conscious practices.",
+      "photo_url": "https://i.ibb.co/QmmGCNk/expo-1.jpg"
+    },
+    {
+      "id": 5,
+      "title": "Apparel Trade Show",
+      "description": "Discover the latest fashion trends, clothing brands, and accessories at the Fashion and Apparel Trade Show. Get a sneak peek at what's hot in the fashion industry.",
+      "photo_url": "https://i.ibb.co/gZjDxMm/expo-9.jpg"
+    },
+    {
+      "id": 6,
+      "title": "Expo",
+      "description": "Savor the flavors and explore the latest food and beverage trends at our Food and Beverage Expo. Taste test gourmet treats and discover culinary innovations.",
+      "photo_url": "https://i.ibb.co/K092Shv/expo-6.jpg"
+    }
+  ]
+  

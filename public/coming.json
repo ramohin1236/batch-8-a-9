@@ -1,0 +1,30 @@
+[
+
+
+    {
+      "id": 1,
+       "name":"Microwave-Oven",
+      "description": "A cutting-edge smart gadget that makes your life easier and more connected.",
+      "photo_url": " https://i.ibb.co/XXQ6syv/comingsonn-2.jpg"
+    },
+    {
+      "id": 2,
+      "name":"Air-Conditioner",
+      "description": "An intelligent television that provides stunning visuals and smart entertainment features.",
+      "photo_url": "https://i.ibb.co/jz7C140/comingsonn-1.jpg"
+    },
+    {
+      "id": 3,
+      "name":"Cooker",
+      "description": "A sleek and powerful mobile phone that keeps you connected on the go.",
+      "photo_url": "https://i.ibb.co/dGqBjtW/comingsonn-3.jpg"
+    },
+    {
+      "id": 4,
+      "name":"Washig-machine",
+      "description": "A magical item that fulfills your heart's deepest desires.",
+      "photo_url": "https://i.ibb.co/tqpLPLB/comingsonn-4.jpg"
+      
+    }
+   
+  ]
