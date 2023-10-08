@@ -10,6 +10,7 @@ import Gadget from "../components/Gadget";
 import Registration from "../components/Registration";
 import Computer from "../components/Computer";
 import About from "../components/About";
+import ServiceDetails from "../components/Services/ServiceDetails";
 
   const router = createBrowserRouter([
     {
@@ -31,6 +32,11 @@ import About from "../components/About";
         {
          path: "/gadget",
          element:<Gadget/>
+        },
+        {
+         path: "/details/:id",
+         element:<ServiceDetails></ServiceDetails>,
+         loader: ()=>fetch('/services.json')
         },
         {
          path: "/computer",

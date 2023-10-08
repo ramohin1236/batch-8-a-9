@@ -1,39 +1,70 @@
 [
     {
-      "id": 1,
-      "category_name": "Smart Gadget",
-      "description": "A cutting-edge smart gadget that makes your life easier and more connected.",
-      "photo_url": "https://i.ibb.co/vYMfNwN/gad-8.jpg"
+        "id": 1,
+        "category_name": "Smart Gadget",
+        "description": "A cutting-edge smart gadget that makes your life easier and more connected.",
+        "photo_url": "https://i.ibb.co/vYMfNwN/gad-8.jpg",
+        "price": "$199.99",
+        "Type": "HD Smart",
+        "Size": "720.2*64.1*424.4",
+        "Weight":" 4 kg",
+        "Wi_Fi": "Yes"  
+     
     },
     {
-      "id": 2,
-      "category_name": "Fridge",
-      "description": "A high-tech refrigerator that keeps your food fresh and your drinks cold.",
-      "photo_url": "https://i.ibb.co/nk2xQT6/fridge1.jpg"
+        "id": 2,
+        "category_name": "Fridge",
+        "description": "A high-tech refrigerator that keeps your food fresh and your drinks cold. This fridge offers the following features:",
+        "photo_url": "https://i.ibb.co/nk2xQT6/fridge1.jpg",
+        "price": "$999.99"
+    
+        
     },
     {
-      "id": 3,
-      "category_name": "Computer",
-      "description": "A powerful computer that can handle all your productivity and gaming needs.",
-      "photo_url": "https://i.ibb.co/ZLQ2DTz/laptop-2.jpg"
+        "id": 3,
+        "category_name": "Computer",
+        "description": "A powerful computer that can handle all your productivity and gaming needs. This computer offers the following features:",
+        "photo_url": "https://i.ibb.co/ZLQ2DTz/laptop-2.jpg",
+        "price": "$1499.99",
+        "Type": "HD Smart",
+        "Size": "32inch",
+        "Weight":" 1 kg",
+        "Wi-Fi": "Yes" 
+       
     },
     {
-      "id": 4,
-      "category_name": "Smart TV",
-      "description": "An intelligent television that provides stunning visuals and smart entertainment features.",
-      "photo_url": "https://i.ibb.co/ZmkWGYR/tv-3.jpg"
+        "id": 4,
+        "category_name": "Smart TV",
+        "description": "An intelligent television that provides stunning visuals and smart entertainment features. This Smart TV offers the following features:",
+        "photo_url": "https://i.ibb.co/ZmkWGYR/tv-3.jpg",
+        "price": "$799.99",
+        "Type": "HD Smart",
+        "Size": "720.2*64.1*424.4",
+        "Weight":" 4 kg",
+        "Wi-Fi": "Yes" 
+       
     },
     {
-      "id": 5,
-      "category_name": "Mobile",
-      "description": "A sleek and powerful mobile phone that keeps you connected on the go.",
-      "photo_url": "https://i.ibb.co/7p5qpCc/mobile1.jpg"
+        "id": 5,
+        "category_name": "Mobile",
+        "description": "A sleek and powerful mobile phone that keeps you connected on the go. This mobile phone offers the following features:",
+        "photo_url": "https://i.ibb.co/7p5qpCc/mobile1.jpg",
+        "price": "$699.99",
+        "Type": "HD Smart",
+        "Size": "6.4",
+        "Weight":" 250gm",
+        "Wi-Fi": "Yes" 
     },
     {
-      "id": 6,
-      "category_name": "Camera",
-      "description": "A magical item that fulfills your heart's deepest desires.",
-      "photo_url": "https://i.ibb.co/VLSf1v6/camera-3.jpg"
+        "id": 6,
+        "category_name": "Camera",
+        "description": "A magical item that fulfills your heart's deepest desires. This camera offers the following features:",
+        "photo_url": "https://i.ibb.co/VLSf1v6/camera-3.jpg",
+        "price": "$899.99",
+        "Type": "HD Smart",
+        "Size": "10inch",
+        "Weight":" 1 kg",
+        "Wi-Fi": "Yes" 
     }
-  ]
-  
+    
+]

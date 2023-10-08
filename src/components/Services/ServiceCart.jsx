@@ -2,6 +2,7 @@ import Aos from 'aos';
 import 'aos/dist/aos.css'
 import PropTypes from 'prop-types';
 import { useEffect } from 'react';
+import { Link } from 'react-router-dom';
 
 const ServiceCart = ({service}) => {
    
@@ -11,7 +12,7 @@ const ServiceCart = ({service}) => {
         },[])  
     
    
-    const {category_name,description,photo_url}=service
+    const {id,category_name,description,photo_url}=service
     return (
         <div >
 <div data-aos="zoom-out-down"
@@ -21,7 +22,9 @@ const ServiceCart = ({service}) => {
     <h2 className="card-title text-2xl">{category_name}</h2>
     <p>{description}</p>
     <div className="card-actions justify-end">
-      <button className="btn btn-primary w-full">See Details</button>
+   <Link to={`/details/${id}`}>
+   <button className="btn btn-primary w-full">See Details</button>
+   </Link>
     </div>
   </div>
 </div>
