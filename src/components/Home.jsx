@@ -53,10 +53,9 @@ const Home = () => {
             <h1 className="text-5xl font-bold">ProElectra</h1>
             <small className="ml-44 font-semibold text-sm">Smart world with smart technology</small>
 
-              <p className="mt-10">"Welcome to our digital realm, where innovation knows no bounds. We believe in the power of technology to shape a brighter future, and our mission is to be your guiding star on this transformative journey. At <span className="font-bold">ProElectra</span>, we're not just enthusiasts; we're trailblazers in the world of tech.</p>
+              <p className="mt-10">Welcome to our digital realm, where innovation knows no bounds. We believe in the power of technology to shape a brighter future, and our mission is to be your guiding star on this transformative journey. At <span className="font-bold">ProElectra</span>, we are not just enthusiasts; we are trailblazers in the world of tech.</p>
         
 
-            <button className="btn btn-primary">Get Started</button>
           </div>
         </div>
       </div>

@@ -29,8 +29,8 @@ const ServiceDetails = () => {
                 <p className="text-lg font-semibold mb-4 ml-6">Type:{selectedService.Type}</p>
                 <p className="text-lg font-semibold mb-4 ml-6">Size:{selectedService.Size}</p> 
                 <p className="text-lg font-semibold mb-4 ml-6">Weight:{selectedService.Weight}</p> 
-                <p className="text-lg font-semibold ml-6">Wi-Fi{selectedService.Wi_Fi}</p> 
-               <p className="text-3xl ml-6 mb-24 mt-6">Price{selectedService.price}</p>
+                <p className="text-lg font-semibold ml-6">Wi-Fi:{selectedService.Wi_Fi}</p> 
+               <p className="text-3xl ml-6 mb-24 mt-6">Price: {selectedService.price}</p>
                 </div>
             </div>
         </div>

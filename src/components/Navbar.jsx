@@ -1,9 +1,20 @@
+import { useContext } from "react";
 import { NavLink } from "react-router-dom";
+import { FirebaseContext } from "../Context/AuthContext";
 
 
 const Navbar = () => {
 
+    const {user,logOut}=useContext(FirebaseContext)
    
+    const handleLogOut=()=>{
+        logOut()
+        .then(() => {
+           
+          }).catch(() => {
+            
+          });
+    }
 
     return (
         <div className="navbar bg-base-100">
@@ -58,12 +69,20 @@ const Navbar = () => {
              isPending ? "pending" : isActive ? "text-white bg-purple-500 rounded-lg" : ""
              }
             > <li><a>About</a></li></NavLink>
-            <NavLink
-            to="/login"
-             className={({isActive, isPending})=>
-             isPending ? "pending" : isActive ? "text-white bg-purple-500 rounded-lg" : ""
-             }
-            > <li><a>Login</a></li></NavLink>
+            {
+                user?<button
+                onClick={handleLogOut}
+                >Logout</button>
+                
+                : 
+                <NavLink
+                to="/login"
+                 className={({isActive, isPending})=>
+                 isPending ? "pending" : isActive ? "text-white bg-purple-500 rounded-lg" : ""
+                 }
+                > <li><a>Login</a></li></NavLink>
+                
+            }
            
             </ul>
           </div>
@@ -116,16 +135,24 @@ const Navbar = () => {
              isPending ? "pending" : isActive ? "text-white bg-purple-500 rounded-lg" : ""
              }
             > <li><a>About</a></li></NavLink>
-            <NavLink
-            to="/login"
-             className={({isActive, isPending})=>
-             isPending ? "pending" : isActive ? "text-white bg-purple-500 rounded-lg" : ""
-             }
-            > <li><a>Login</a></li></NavLink>
-           
+           {
+                user?<button
+                onClick={handleLogOut}
+                className="btn ">Logout</button>
+                
+                : 
+                <NavLink
+                to="/login"
+                 className={({isActive, isPending})=>
+                 isPending ? "pending" : isActive ? "text-white bg-purple-500 rounded-lg" : ""
+                 }
+                > <li><a>Login</a></li></NavLink>
+                
+            }
           </ul>
         </div>
         <div className="navbar-end">
+            {user? <span>{user.email}</span>: ""}
           <a className="btn">Button</a>
         </div>
       </div>

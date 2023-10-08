@@ -16,7 +16,11 @@
         "category_name": "Fridge",
         "description": "A high-tech refrigerator that keeps your food fresh and your drinks cold. This fridge offers the following features:",
         "photo_url": "https://i.ibb.co/nk2xQT6/fridge1.jpg",
-        "price": "$999.99"
+        "price": "$999.99",
+        "Type": "HD Smart",
+        "Size": "6 feet",
+        "Weight":" 4 kg",
+        "Wi_Fi": "Yes"
     
         
     },
