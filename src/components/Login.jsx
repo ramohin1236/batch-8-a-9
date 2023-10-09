@@ -6,7 +6,7 @@ import Swal from "sweetalert2";
 
 
 const Login = () => {
-    const {loginUser}=useContext(FirebaseContext)
+    const {loginUser,googleSignUp}=useContext(FirebaseContext)
   const [error,setError]=useState('')
   const [success,setSuccess]=useState('')
   const location=useLocation()
@@ -45,6 +45,29 @@ const Login = () => {
 
     }
 
+    const handlegoogleSignIn=()=>{
+        googleSignUp()
+        .then(result=>{
+            setSuccess(Swal.fire(
+                'Good job!',
+                'Successfully Login!',
+               
+              ))
+              navigate(location?.state?location.state : "/" )
+
+            console.log(result.user)
+        }) 
+        .catch((error)=>{
+            const errorMessage = error.message;
+            setError(Swal.fire({
+                icon: 'error',
+                title: 'Oops...',
+                text: `${errorMessage}`,
+               
+              }))
+        })
+    }
+
 
     return (
         <div className="hero min-h-screen ">
@@ -76,6 +99,9 @@ const Login = () => {
         </div>
         <div className="form-control mt-6">
           <button className="btn btn-primary">Login</button>
+          <button
+          onClick={handlegoogleSignIn}
+          className="btn btn-primary">Google</button>
         </div>
       </form>
     </div>
