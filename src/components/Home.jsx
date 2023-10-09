@@ -46,8 +46,9 @@ const Home = () => {
     return (
        <div>
         <section>
-         <div className="mt-10 rounded-lg hero lg:h-[500px]" style={{backgroundImage: 'url(../../images/background.jpg)'}}>
-            {/* <img src="../../images/background.jpg" alt="" /> */}
+        {/* style={{backgroundImage: 'url(../../images/background.jpg)'}} */}
+         <div className="mt-10 rounded-lg hero " >
+            <img className="w-full lg:h-[540px]" src="../../images/background.jpg" alt="" />
         <div className="hero-overlay bg-opacity-60"></div>
         <div className="hero-content text-center text-neutral-content">
           <div className="max-w-md">
