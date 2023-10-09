@@ -1,0 +1,75 @@
+[
+    {
+      "id": 11,
+      "category_name": "Canon EOS 5D Mark IV",
+      "feature": "Full-frame DSLR",
+      "price": 2499.99,
+      "Size": "150 x 116 x 75 mm",
+      "photo_url": "https://i.ibb.co/NWhBLRn/camera-2.jpg",
+      "description": "The Canon EOS 5D Mark IV is a top-tier full-frame DSLR camera, known for its exceptional image quality and low-light performance. With a 30.4MP sensor, it captures stunningly detailed photos and 4K video. Its robust build and advanced autofocus make it a favorite among professional photographers.",
+      "Weight":" 1 kg",
+      "Type": "HD Smart",
+      "Wi_Fi": "Yes"  
+    },
+    {
+      "id": 12,
+      "category_name": "Nikon D850",
+      "feature": "Full-frame DSLR",
+      "price": 2999.95,
+      "Size": "146 x 123 x 78 mm",
+      "photo_url": "https://i.ibb.co/1z783Nw/camera-4.jpg",
+      "description": "The Nikon D850 is a high-end full-frame DSLR camera that excels in resolution with its 45.7MP sensor. It offers exceptional dynamic range and 4K video capabilities, making it an ideal choice for landscape and studio photography, as well as professional videography.",
+      "Weight":" 800 gm",
+      "Type": "HD Smart",
+      "Wi_Fi": "Yes"  
+    },
+    {
+      "id": 13,
+      "category_name": "Sony Alpha a7 III",
+      "feature": "Mirrorless",
+      "price": 1998.00,
+      "Size": "127 x 96 x 74 mm",
+      "photo_url": "https://i.ibb.co/dK0fPys/camera-1.jpg",
+      "description": "The Sony Alpha a7 III is a versatile mirrorless camera, featuring a 24.2MP sensor and advanced autofocus. It's a superb all-rounder, suitable for various photography styles. With its compact Size and impressive image quality, it's a favorite among enthusiasts and professionals alike.",
+      "Weight":" 1 kg",
+      "Type": "HD Smart",
+      "Wi_Fi": "Yes"  
+    },
+    {
+      "id": 14,
+      "category_name": "Fujifilm X-T4",
+      "feature": "Mirrorless",
+      "price": 1699.95,
+      "Size": "135 x 93 x 58 mm",
+      "photo_url": "https://i.ibb.co/NWhBLRn/camera-2.jpg",
+      "description": "The Fujifilm X-T4 is a feature-packed mirrorless camera known for its 26.1MP sensor and exceptional image stabilization. It's a great choice for photographers and videographers seeking outstanding image quality and 4K video recording capabilities.",
+      "Weight":" 1.2 kg",
+      "Type": "HD Smart",
+      "Wi_Fi": "Yes"  
+    },
+    {
+      "id": 15,
+      "category_name": "Panasonic Lumix GH5",
+      "feature": "Mirrorless",
+      "price": 1697.99,
+      "Size": "139 x 98 x 87 mm",
+      "photo_url": "https://i.ibb.co/LPS5zxj/camera-3.jpg",
+      "description": "The Panasonic Lumix GH5 is a mirrorless camera designed for both photographers and videographers. It boasts a 20.3MP sensor and excels in 4K video recording. Its compact Size and excellent image stabilization make it a reliable choice for content creators.",
+      "Weight":" 900 gm",
+      "Type": "HD Smart",
+      "Wi_Fi": "Yes"  
+    },
+    {
+      "id": 16,
+      "category_name": "Nikon Coolpix P1000",
+      "feature": "Bridge Camera",
+      "price": 999.95,
+      "Size": "146 x 119 x 181 mm",
+      "photo_url": "https://i.ibb.co/1z783Nw/camera-4.jpg",
+      "description": "The Nikon Coolpix P1000 is a versatile bridge camera with a powerful 125x optical zoom lens. It's ideal for capturing distant subjects and wildlife. Despite its compact Size, it offers remarkable image quality and a variety of shooting modes.",
+      "Weight":" 4 kg",
+      "Type": "HD Smart",
+      "Wi_Fi": "Yes"  
+    }
+  ]
+  

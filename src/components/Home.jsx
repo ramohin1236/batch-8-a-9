@@ -66,6 +66,9 @@ const Home = () => {
 
        <section className="mt-24">
         <h1 className="text-5xl font-bold text-center mb-16">Our Services Product</h1>
+        <Marquee pauseOnHover='true' speed={120} className="text-2xl border py-10 mb-6 font-bold text-blue-600">
+            Please login first and go to <span className="text-4xl text-purple-500 mx-2">category</span> and get more products
+          </Marquee>
          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
             {service.map(service=><ServiceCart
             service={service}

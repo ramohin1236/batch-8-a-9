@@ -101,7 +101,7 @@ const Login = () => {
           <button className="btn btn-primary">Login</button>
           <button
           onClick={handlegoogleSignIn}
-          className="btn btn-primary">Google</button>
+          className="btn text-lg mt-4"><i className="fa-brands fa-google text-2xl text-blue-600 "></i>Google</button>
         </div>
       </form>
     </div>

@@ -24,7 +24,13 @@ import PrivateRoute from "./PrivateRoute";
         },
         {
          path: "/camera",
-         element:<Camera/>
+         element:<PrivateRoute><Camera/></PrivateRoute>,
+         loader: ()=>fetch('/camera.json')
+        },
+        {
+         path: "/camera/:id",
+         element:<PrivateRoute><ServiceDetails/></PrivateRoute>,
+         loader: ()=>fetch('/camera.json')
         },
         {
          path: "/tv",
