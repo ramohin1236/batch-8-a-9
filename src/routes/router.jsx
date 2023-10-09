@@ -12,6 +12,7 @@ import ServiceDetails from "../components/Services/ServiceDetails";
 import PrivateRoute from "./PrivateRoute";
 import TvDetails from "../components/TvDetails";
 import ErrorPage from "../components/ErrorPage";
+import Purchase from "../components/Purchase/Purchase";
 
   const router = createBrowserRouter([
     {
@@ -67,6 +68,10 @@ import ErrorPage from "../components/ErrorPage";
         {
          path: "/about",
          element:<About/>
+        },
+        {
+         path: "/purchase",
+         element:<Purchase/>
         },
       ]
     },
