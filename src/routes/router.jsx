@@ -12,6 +12,7 @@ import Computer from "../components/Computer";
 import About from "../components/About";
 import ServiceDetails from "../components/Services/ServiceDetails";
 import PrivateRoute from "./PrivateRoute";
+import TvDetails from "../components/TvDetails";
 
   const router = createBrowserRouter([
     {
@@ -34,7 +35,13 @@ import PrivateRoute from "./PrivateRoute";
         },
         {
          path: "/tv",
-         element:<Tv/>
+         element:<Tv/>,
+         loader:()=>fetch('/tv.json')
+        },
+        {
+         path: "/tv/:id",
+         element:<TvDetails/>,
+         loader:()=>fetch('/tv.json')
         },
         {
          path: "/gadget",

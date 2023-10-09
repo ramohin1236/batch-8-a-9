@@ -1,0 +1,57 @@
+[
+    {
+      "id": 21,
+      "brand": "Samsung",
+      "model_name": "Samsung QLED 4K UHD Smart TV",
+      "display_size": "55 inches",
+      "price": 999.99,
+      "image": "https://i.ibb.co/ggkbjC3/tv-1.jpg",
+      "description": "The Samsung QLED 4K UHD Smart TV offers stunning picture quality with vibrant colors and deep contrast. With a 55-inch display, it's perfect for enjoying your favorite movies and shows. It comes with a range of smart features for seamless streaming and connectivity."
+    },
+    {
+      "id": 22,
+      "brand": "Sony",
+      "model_name": "Sony Bravia OLED 4K Ultra HD TV",
+      "display_size": "65 inches",
+      "price": 1499.99,
+      "image": "https://i.ibb.co/XxqZxbs/tv-2.jpg",
+      "description": "The Sony Bravia OLED 4K Ultra HD TV is a masterpiece of display technology. Its 65-inch OLED screen delivers true blacks and incredible color accuracy. Immerse yourself in cinematic experiences with this stunning TV."
+    },
+    {
+      "id": 23,
+      "brand": "LG",
+      "model_name": "LG NanoCell 4K Ultra HD Smart TV",
+      "display_size": "50 inches",
+      "price": 799.99,
+      "image": "https://i.ibb.co/QQKYktG/tv-3.jpg",
+      "description": "The LG NanoCell 4K Ultra HD Smart TV offers sharp and detailed visuals on its 50-inch display. With NanoCell technology, it provides rich, lifelike colors. This smart TV is a great addition to any home entertainment setup."
+    },
+    {
+      "id": 24,
+      "brand": "TCL",
+      "model_name": "TCL 4K Roku Smart LED TV",
+      "display_size": "43 inches",
+      "price": 399.99,
+      "image": "https://i.ibb.co/pzxGSmt/tv-4.jpg",
+      "description": "The TCL 4K Roku Smart LED TV offers a budget-friendly option with great features. Its 43-inch display provides clear and crisp images. With Roku built-in, you have access to a wide range of streaming options."
+    },
+    {
+      "id": 25,
+      "brand": "Hisense",
+      "model_name": "Hisense H8G Quantum Series 4K ULED Smart TV",
+      "display_size": "55 inches",
+      "price": 649.99,
+      "image": "https://i.ibb.co/RPVj8JF/tv-5.jpg",
+      "description": "The Hisense H8G Quantum Series 4K ULED Smart TV combines excellent picture quality with smart features. Its 55-inch display is powered by ULED technology, delivering vivid and vibrant visuals. Enjoy 4K content with ease."
+    },
+    {
+      "id": 26,
+      "brand": "Panasonic",
+      "model_name": "Panasonic 4K Ultra HD Smart TV",
+      "display_size": "40 inches",
+      "price": 499.99,
+      "image": "https://i.ibb.co/QQKYktG/tv-3.jpg",
+      "description": "The Panasonic 4K Ultra HD Smart TV is a compact yet feature-rich option with a 40-inch display. It offers stunning 4K resolution and a range of smart functions for your entertainment needs. Perfect for smaller spaces."
+    }
+  ]
+  

@@ -41,24 +41,14 @@ const Navbar = () => {
                   isPending ? "pending" : isActive ? "text-white bg-purple-500 rounded-lg block" : ""
                   }
                  > <li><a>Camera</a></li></NavLink>
-                 <NavLink
-                 to="/computer"
-                  className={({isActive, isPending})=>
-                  isPending ? "pending" : isActive ? "text-white bg-purple-500 rounded-lg block" : ""
-                  }
-                 > <li><a>Computer</a></li></NavLink>
+                
                  <NavLink
                  to="/tv"
                   className={({isActive, isPending})=>
                   isPending ? "pending" : isActive ? "text-white bg-purple-500 rounded-lg block" : ""
                   }
                  > <li><a>TV</a></li></NavLink>
-                 <NavLink
-                 to="/gadget"
-                  className={({isActive, isPending})=>
-                  isPending ? "pending" : isActive ? "text-white bg-purple-500 rounded-lg block" : ""
-                  }
-                 > <li><a>Gadget</a></li></NavLink>
+                
                
                 </ul>
               </details>
@@ -107,24 +97,15 @@ const Navbar = () => {
                 isPending ? "pending" : isActive ? "text-white bg-purple-500 rounded-lg block" : ""
                 }
                  > <li><a>Camera</a></li></NavLink>
-                 <NavLink
-                 to="/computer"
-                  className={({isActive, isPending})=>
-                  isPending ? "pending" : isActive ? "text-white bg-purple-500 rounded-lg block" : ""
-                  }
-                 > <li><a>Computer</a></li></NavLink>
+                
+               
                  <NavLink
                  to="/tv"
                   className={({isActive, isPending})=>
                   isPending ? "pending" : isActive ? "text-white bg-purple-500 rounded-lg block" : ""
                   }
                  > <li><a>TV</a></li></NavLink>
-                 <NavLink
-                 to="/gadget"
-                  className={({isActive, isPending})=>
-                  isPending ? "pending" : isActive ? "text-white bg-purple-500 rounded-lg block" : ""
-                  }
-                 > <li><a>Gadget</a></li></NavLink>
+               
                
                 </ul>
               </details>
@@ -152,7 +133,7 @@ const Navbar = () => {
           </ul>
         </div>
         <div className="navbar-end">
-            {user? <span>{user.email}</span>: ""}
+            {user? <span className="mr-2 text-purple-400">{user.email}</span>: ""}
           <a className="btn">Button</a>
         </div>
       </div>
