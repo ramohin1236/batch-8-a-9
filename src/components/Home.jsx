@@ -5,7 +5,7 @@ import ExpoCart from "./Expo/ExpoCart";
 import Ceremony from "../ceremony/Ceremony";
 import NewProduct from "../NewProduct/NewProduct";
 import Marquee from "react-fast-marquee";
-
+import img from "/public/background.jpg"
 
 
 
@@ -48,7 +48,7 @@ const Home = () => {
         <section>
         {/* style={{backgroundImage: 'url(../../images/background.jpg)'}} */}
          <div className="mt-10 rounded-lg hero " >
-            <img className="w-full lg:h-[540px]" src="../../images/background.jpg" alt="" />
+            <img className="w-full lg:h-[540px]" src={img} alt="" />
         <div className="hero-overlay bg-opacity-60"></div>
         <div className="hero-content text-center text-neutral-content">
           <div className="max-w-md">
