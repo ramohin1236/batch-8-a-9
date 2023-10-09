@@ -54,11 +54,11 @@ const Navbar = () => {
               </details>
             </li>
             <NavLink
-            to="/about"
+            to="/purchase"
              className={({isActive, isPending})=>
              isPending ? "pending" : isActive ? "text-white bg-purple-500 rounded-lg" : ""
              }
-            > <li><a>About</a></li></NavLink>
+            > <li><a>Purchase List</a></li></NavLink>
             {
                 user?<button
                 onClick={handleLogOut}
@@ -111,11 +111,11 @@ const Navbar = () => {
               </details>
             </li>
             <NavLink
-            to="/about"
+            to="/purchase"
              className={({isActive, isPending})=>
              isPending ? "pending" : isActive ? "text-white bg-purple-500 rounded-lg" : ""
              }
-            > <li><a>About</a></li></NavLink>
+            > <li><a>Purchase List</a></li></NavLink>
            {
                 user?<button
                 onClick={handleLogOut}

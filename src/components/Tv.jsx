@@ -5,7 +5,7 @@ const Tv = () => {
     const tv = useLoaderData()
     console.log(tv)
     return (
-        <div className=" grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+        <div className=" grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
         {
          tv?.map(tv=><TvCart
          key={tv.id}
