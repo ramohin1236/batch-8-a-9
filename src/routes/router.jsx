@@ -37,12 +37,12 @@ import ErrorPage from "../components/ErrorPage";
         },
         {
          path: "/tv",
-         element:<Tv/>,
+         element:<PrivateRoute><Tv/></PrivateRoute>,
          loader:()=>fetch('/tv.json')
         },
         {
          path: "/tv/:id",
-         element:<TvDetails/>,
+         element:<PrivateRoute><TvDetails/></PrivateRoute>,
          loader:()=>fetch('/tv.json')
         },
         {
