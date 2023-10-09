@@ -35,3 +35,12 @@
 ## B : 2
 
 # description : I don't know.
+
+
+### Write my project features
+
+* This is my own company project which is a own manufactural tech company.
+* In This website you can see my product.
+* After login you can show product features
+* You can purchases product
+* Also can support our team member
